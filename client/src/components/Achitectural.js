@@ -56,8 +56,8 @@ const Achitectural = () => {
                 
               </ReadMore>
             </h4>
-            <h4>ksh. {project.budget}M</h4>
-            <button>View</button>
+            <h4><strong/>Budget:{project.budget}M khs</h4>
+            
             
           </div>
         )
