@@ -1,29 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* h1{
+    margin-top: 100px;
+    text-align: center;
+} */
 .web-container{
-    display:inline-grid;
-    
-    grid-row-start: 1;
-    grid-row-end: 3;
-    gap:50px;
     align-items: center;
-    max-width:100%;
+    width:90%;
     font-family: 'Urbanist', sans-serif;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    gap:50px;
     background-color: #fff;
     text-align: center;
-    color: #021718;
+    color:#021718;
+    margin-bottom: 20px;
+    /* padding-left: 20px; */
+    margin:auto;
+    
 
 
 
 }
 .web-card{
-    width: 30%;
+    width: 100%;
 
-    margin:3%;
+    margin:auto;
     background-color: #fff;
     box-shadow: #01847F 0px 3px 8px;
     border-radius: 5px;
     text-align: center;
+    
 
 }
 .web-card>img{
@@ -49,4 +59,13 @@
 .web-card>button>a{
     color:#fff;
     text-decoration: none;
+}
+
+.card-img{
+    transition:all 0.3s ease-in-out;
+}
+.web-card:hover .card-img,
+.web-card:focus .card-img {
+  transform: scale(1.02);
+  opacity:0.9;
 }
