@@ -13,12 +13,13 @@ const Webdevs = () => {
       })
     
       return (
+        <>
+          <h1 className='head'>Web-Development Projects</h1>
         <div className='web-container'>
-          <h1>Web-Development Projects</h1>
           {projects.map((project) =>{
             return (
               <div className='web-card'> 
-                <img src={project.image_url}/>
+                <img src={project.image_url} className='card-img'/>
                 <h2>{project.title}</h2>
                 <button><a href={project.web_url}>View</a></button>
                 
@@ -26,6 +27,7 @@ const Webdevs = () => {
             )
           })}
         </div>
+        </>
       )
 }
 
