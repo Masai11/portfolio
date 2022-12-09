@@ -20,8 +20,29 @@
     color:#021718;
     margin-bottom: 20px;
     margin: auto;
+    margin-top: 30px;
 
 
+}
+
+.btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+button.form-btn{
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color:#01847F ;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing:3px;
+    border-radius: 5px;
+    border: none;
 }
 
 
@@ -62,4 +83,12 @@
     border-radius: 5px;
     border: none;
 
+}
+.text{
+    display:inline;
+    width:100%;
+}
+.read-or-hide{
+    color:#01847F;
+    cursor:pointer;
 }
