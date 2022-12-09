@@ -1,4 +1,5 @@
 import {React, useState} from 'react'
+import './newarchitectureprojectform.css'
 
 const initialState = {
     title: "",
@@ -38,39 +39,39 @@ function NewArchitectureProjectForm({onAddProject}) {
     }
 
     return (
-        <div className="card">
-      <h2>New Design Project</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="title">Title: </label>
-        <input
-          type="text"
-          id="title"
-          value={formData.title}
-          onChange={handleChange}
-        />
-        <label htmlFor="image">Image URL: </label>
-        <input
-          type="text"
-          id="image"
-          value={formData.image_url}
-          onChange={handleChange}
-        />
-        <label htmlFor="content">content: </label>
-        <input
-          type="text"
-          id="content"
-          value={formData.content}
-          onChange={handleChange}
-        />
-        <label htmlFor="budget">budget: </label>
-        <textarea
-          id="description"
-          value={formData.budget}
-          onChange={handleChange}
-        />
+        <div className="form-card">
       
-        <button type="submit">Submit</button>
-      </form>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="title">Title: </label>
+          <input
+            type="text"
+            id="title"
+            value={formData.title}
+            onChange={handleChange}
+          />
+          <label htmlFor="image_url">Image URL: </label>
+          <input
+            type="text"
+            id="image"
+            value={formData.image_url}
+            onChange={handleChange}
+          />
+          <label htmlFor="content">content: </label>
+          <input
+            type="text"
+            id="content"
+            value={formData.content}
+            onChange={handleChange}
+          />
+          <label htmlFor="budget">budget: </label>
+          <input type="number"
+            id="budget"
+            value={formData.budget}
+            onChange={handleChange}
+          />
+        
+          <button className='submit-btn' type="submit">Submit</button>
+        </form>
     </div>
     );
     

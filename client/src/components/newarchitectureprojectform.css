@@ -1,0 +1,12 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width :50%;
+    margin: auto;
+}
+.submit-btn{
+    width:60px;
+    background-color: #01847F;
+    color:#fff;
+
+}
