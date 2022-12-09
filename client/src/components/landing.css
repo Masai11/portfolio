@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+
+    height:100vh;
+    background-color:#FBA662;
+    font-family: 'Urbanist', sans-serif;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width:100%;
+    margin: 0px;
+    padding:0px;
+    /* background-color:#FBA662; */
+
+
+    /* width: 100%; */
+}
+.hero-content{
+    color:#021718;
+
+    margin-top: 15vh;
+    width: 60%;
+    padding: 0 6%;
+
+}
+.hero-content > h1{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+
+
+    color: #021718;
+}
+.hero-content>p{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #021718;
+}
+.hero-image{
+    width: 40%;
+}
+.hero-image >img{
+    width: 100%;
+   height:100vh;
+    margin: 0;
+
+}
+.view-more{
+    padding:10px 10px;
+    background-color: #01847F;
+    border: none;
+    letter-spacing: 3px;
+    font-size: large;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+.view-more:hover{
+    margin-top: 1vh;
+}
+/* .photo-bg{
+    margin-left: 10vh;
+    margin-top: 15vh;
+    height: 45vh;
+    background-color: #01847F;
+    width:40vh;
+    border-radius: 5px;
+    transform: rotate(-2.5deg);
+} */
+

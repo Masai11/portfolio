@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.web-container{
+    display:inline-grid;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+    gap:50px;
+    align-items: center;
+    max-width:100%;
+    font-family: 'Urbanist', sans-serif;
+    background-color: #fff;
+    text-align: center;
+    color: #021718;
+
+
+
+}
+.web-card{
+    width: 30%;
+
+    margin:3%;
+    background-color: #fff;
+    box-shadow: #01847F 0px 3px 8px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.web-card>img{
+    width:100%;
+    height:auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.web-card>button{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color:#01847F;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing:3px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+.web-card>button>a{
+    color:#fff;
+    text-decoration: none;
+}
