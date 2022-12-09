@@ -18,6 +18,7 @@ function App() {
         <Service/>
         <Achitectural/>
         <Webdevs/>
+        <Footer/>
 
         
         
@@ -25,7 +26,6 @@ function App() {
         
         
         
-        {/* <Footer/> */}
       </div>
       
     
