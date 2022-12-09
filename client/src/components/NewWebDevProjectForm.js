@@ -1,4 +1,5 @@
 import {React,useState} from 'react'
+import './newwebdevprojectform.css'
 
 const initialState = {
     title: "",
@@ -35,8 +36,7 @@ function NewWebDevProjectForm({onAddProject})  {
           });
     }
   return (
-    <div className="card">
-    <h2>New WebDevelopment Project</h2>
+    <div className="form-card">
     <form onSubmit={handleSubmit}>
       <label htmlFor="title">Title: </label>
       <input
@@ -45,14 +45,14 @@ function NewWebDevProjectForm({onAddProject})  {
         value={formData.title}
         onChange={handleChange}
       />
-      <label htmlFor="image">Image URL: </label>
+      <label htmlFor="image_url">Image URL: </label>
       <input
         type="text"
-        id="image"
+        id="image_url"
         value={formData.image_url}
         onChange={handleChange}
       />
-      <label htmlFor="content">web_url: </label>
+      <label htmlFor="web_url">web_url: </label>
       <input
         type="text"
         id="web_url"
@@ -61,7 +61,7 @@ function NewWebDevProjectForm({onAddProject})  {
       />
     
     
-      <button type="submit">Submit</button>
+      <button className='submit-btn' type="submit">Submit</button>
     </form>
   </div>
   )
