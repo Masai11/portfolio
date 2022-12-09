@@ -17,7 +17,7 @@ const Landing = () => {
           </div>
 
           <div className="hero-image">
-          <img src="https://images.pexels.com/photos/7212834/pexels-photo-7212834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+          <img src="https://images.pexels.com/photos/1697220/pexels-photo-1697220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
             
           </div>
       </div>
