@@ -15,13 +15,14 @@ const Achitectural = () => {
   })
 
   return (
+    <>
+      <h1 className='head'>Architecture Projects</h1>
     <div className='arch-container'>
-      <h1>Architecture Projects</h1>
       {projects.map((project) =>{
         return (
           
           <div className ='arch-card'> 
-            <img src={project.image_url}/>
+            <img src={project.image_url} className='card-img'/>
             <h2>{project.title}</h2>
             <button>View</button>
             
@@ -29,6 +30,7 @@ const Achitectural = () => {
         )
       })}
     </div>
+    </>
   )
 }
 
