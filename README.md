@@ -1,24 +1,57 @@
-# README
+# Portfolio
+Project name: **Portfolio**
+Author's name: **Roy Masai**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**BUILT WITH.**
+* Css
+* React.js
 
-Things you may want to cover:
+* Ruby on Rails
+**GETTING STARTED.**
+To start of you are required to follow the live link provided in the repository description (Link provided)
+**PREREQUISITES.**
+After cloning the repo, run `$ npm install --legacy-peer-deps`
+Below are the necesities to keep note of while using this web application.
+         $ npm start
+* Runs the app in the development mode.
+Open http://localhost:4000 to view it in your browser.
+The page will reload when you make changes.
+ * Clone the repo;
+ https://github.com/Masai11/portfolio.git
+  To get setup run;
+       $ npm install --legacy-peer-deps
+**USAGE.**
+* First click on the web link provided,
 
-* Ruby version
+* Navigate to the navbar links section on the sidebar
+* View or create a new project
 
-* System dependencies
 
-* Configuration
+                  **KNOWN BUGS.**
+ * The site is fully functional, however, there are a few known bugs, which are currently being woked on, and will be updated shortly.
 
-* Database creation
+**ROADMAP.**
+* Portfolio
+* Projects
+* Services
+* Contact
+        **CONTRIBUTIONS.**
+Feel free to make any contributions to this project.Your contributions will be recieved with much appreciation. For any suggestions that would improve this project,kindly fork the repo and create a pull request.
+* Fork the Project.
+* Create your Feature Branch (git checkout -b feature/feature).
+* Commit your Changes (git commit -m 'Add some feature').
+* Push to the Branch (git push origin feature/feature).
+* Open a Pull Request.
+**LICENSE.**
+Distributed under the MIT License.See LICENSE.txt for more information.
+**CONTACT ME.**
+Name- Roy Masai -roymasai001@gmail.com
 
-* Database initialization
+**ACKNOWLEDGEMENT.**
+I would like to acknowledge my Moringa School Technical Mentor- **Beatrice Wambui Mbugua.** for her great support though out the course.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
+
