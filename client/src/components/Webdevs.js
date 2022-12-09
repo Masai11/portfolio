@@ -1,9 +1,11 @@
 import React from 'react'
 import{useState,useEffect} from 'react'
+import NewWebDevProjectForm from './NewWebDevProjectForm';
 import './webdevs.css'
 
 const Webdevs = () => {
     const [projects, setProjects] = useState([]);
+    const [formVisible, setFormVisible] = useState(false)
 
   
     useEffect(()=>{
@@ -15,6 +17,10 @@ const Webdevs = () => {
       return (
         <>
           <h1 className='head'>Web-Development Projects</h1>
+          <div className='btn'>    
+          <button onClick={()=>{setFormVisible(!formVisible)}} className='form-btn'>Add New</button>
+      </div>
+      {formVisible ? <NewWebDevProjectForm/> : null}
         <div className='web-container'>
           {projects.map((project) =>{
             return (
