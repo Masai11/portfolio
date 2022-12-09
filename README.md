@@ -27,8 +27,10 @@ The page will reload when you make changes.
 * View or create a new project
 
 
-                  **KNOWN BUGS.**
- * The site is fully functional, however, there are a few known bugs, which are currently being woked on, and will be updated shortly.
+  **KNOWN BUGS.**
+ * The site is fully functional, however, there are a few known bugs, which are currently being worked on, and will be updated shortly.
+ *I have a small issue with the routing, but i am working on it
+
 
 **ROADMAP.**
 * Portfolio
