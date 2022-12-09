@@ -182,7 +182,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="Our-focus">
-        <h2 className="our">Our <span className="bnb"> Contact</span></h2>
+        <h2 className="our"><span className="bnb"> Contact</span></h2>
         <ul>
           <li>roymasai001@gmail.com</li>
           <li>0728300345</li>
