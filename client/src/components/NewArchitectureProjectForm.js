@@ -24,7 +24,7 @@ function NewArchitectureProjectForm({onAddProject}) {
     
     function handleSubmit(e) {
         e.preventDefault();
-        fetch("/architecturals", {
+        fetch("https://portfolio-production-e1a7.up.railway.app/architecturals", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

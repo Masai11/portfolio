@@ -22,7 +22,7 @@ function NewWebDevProjectForm({onAddProject})  {
     
     function handleSubmit(e) {
         e.preventDefault();
-        fetch("/webdevs", {
+        fetch("https://portfolio-production-e1a7.up.railway.app/webdevs", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -49,6 +49,17 @@ Distributed under the MIT License.See LICENSE.txt for more information.
 **CONTACT ME.**
 Name- Roy Masai -roymasai001@gmail.com
 
+
+**RepoLinks**
+frontend : https://genuine-flan-23e148.netlify.app/
+
+backend with end points
+https://portfolio-production-e1a7.up.railway.app/architecturals
+
+https://portfolio-production-e1a7.up.railway.app/webdevs
+
+
+
 **ACKNOWLEDGEMENT.**
 I would like to acknowledge my Moringa School Technical Mentor- **Beatrice Wambui Mbugua.** for her great support though out the course.
 

@@ -4,7 +4,8 @@ Rails.application.configure do
 
 
   # Settings specified here will take precedence over those in config/application.rb.
-  config.hosts<< "portfolio-production.up.railway.app"
+  config.hosts << "portfolio-production-e1a7.up.railway.app"
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 

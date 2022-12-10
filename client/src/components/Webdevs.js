@@ -9,7 +9,7 @@ const Webdevs = () => {
 
   
     useEffect(()=>{
-        fetch("/webdevs")
+        fetch("https://portfolio-production-e1a7.up.railway.app/webdevs")
         .then((res) => res.json())
         .then((projects) => setProjects(projects) )
       })

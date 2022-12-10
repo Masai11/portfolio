@@ -29,7 +29,7 @@ const Achitectural = () => {
   const [formVisible, setFormVisible] = useState(false)
 
   useEffect(()=>{
-    fetch("/architecturals")
+    fetch("https://portfolio-production-e1a7.up.railway.app/architecturals")
     .then((res) => res.json())
     .then((projects) => setProjects(projects) )
   })
