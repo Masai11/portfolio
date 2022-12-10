@@ -56,7 +56,7 @@
 
     
 }
-.links>li{
+.links>li>a{
    
     margin-left: 4em;
     text-decoration: none;

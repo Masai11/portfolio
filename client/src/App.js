@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Service from './components/Service'
 import Achitectural from './components/Achitectural';
 import Webdevs from './components/Webdevs';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter , Route, Routes } from 'react-router-dom';
 
 
 
@@ -27,18 +27,6 @@ function App() {
           <Route path='/contact' exact element ={<Footer/>}/>
           <Route path='/services' exact element={<Service/>}/>
         </Routes> */}
-        {/* <Switch>
-          <Route path="/contact">
-            <Footer/>
-          </Route>
-          <Route path="/">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch> */}
-        
         <Landing/>
         <Service/>
         <Achitectural/>

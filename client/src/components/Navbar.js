@@ -12,9 +12,9 @@ const Navbar = () => {
         <li>
           <div className="nav-links">
             <ul className="links">
-              <li className="nav-hover">Projects</li>
-              <li className="nav-hover">Contact</li>
-              <li className="nav-hover"> Services</li>
+              <li className="nav-hover"><a href='#project'>Projects</a>  </li>
+              <li className="nav-hover"><a href='#contact'>Contact</a>  </li>
+              <li className="nav-hover"><a href='#service'>Services</a>  </li>
               
             </ul>
           </div>

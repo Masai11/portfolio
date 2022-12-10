@@ -37,32 +37,36 @@ const Achitectural = () => {
 
   return (
     <>
-      <h1 className='head'>Architecture Projects</h1>
-      <div className='btn'>    
-          <button onClick={()=>{setFormVisible(!formVisible)}} className='form-btn'>Add New</button>
-      </div>
-      {formVisible ? <NewArchitectureProjectForm/> : null}
-    <div className='arch-container'>
-      {projects.map((project) =>{
-        return (
-          
-          <div className ='arch-card'> 
-            <img src={project.image_url} className='card-img'/>
-            <h2>{project.title}</h2>
-            <h4>
+     <div id='project'>
 
-              <ReadMore>
-                {project.content}
-                
-              </ReadMore>
-            </h4>
-            <h4><strong/>Budget:{project.budget}M khs</h4>
+      <h1 className='head'>Architecture Projects</h1>
+        <div className='btn'>    
+            <button onClick={()=>{setFormVisible(!formVisible)}} className='form-btn'>Add New</button>
+        </div>
+        {formVisible ? <NewArchitectureProjectForm/> : null}
+      <div className='arch-container'>
+        {projects.map((project) =>{
+          return (
             
-            
-          </div>
-        )
-      })}
-    </div>
+            <div className ='arch-card'> 
+              <img src={project.image_url} className='card-img'/>
+              <h2>{project.title}</h2>
+              <h4>
+
+                <ReadMore>
+                  {project.content}
+                  
+                </ReadMore>
+              </h4>
+              <h4><strong/>Budget:{project.budget}M khs</h4>
+              
+              
+            </div>
+          )
+        })}
+      </div>
+     </div>
+    
     </>
   )
 }

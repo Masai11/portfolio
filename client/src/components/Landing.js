@@ -12,7 +12,7 @@ const Landing = () => {
             project management.
             </p>
             <button className='view-more'>
-              View more
+              <a href='#project'>View more</a>
             </button>
           </div>
 

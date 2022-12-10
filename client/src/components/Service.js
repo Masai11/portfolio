@@ -3,7 +3,8 @@ import './service.css'
 
 const Service = () => {
   return (
-    <div className='service-container'>
+    <div id='service'>
+      <div className='service-container'>
           <h1 className='title'>My Services</h1>
         <div className='service-card'>
 
@@ -18,7 +19,9 @@ const Service = () => {
           </div>
 
         </div>
+      </div>
     </div>
+   
   )
 }
 
