@@ -51,7 +51,7 @@ Name- Roy Masai -roymasai001@gmail.com
 
 
 **RepoLinks**
-frontend : https://genuine-flan-23e148.netlify.app/
+frontend : https://beamish-semifreddo-1a5dac.netlify.app
 
 backend with end points
 https://portfolio-production-e1a7.up.railway.app/architecturals

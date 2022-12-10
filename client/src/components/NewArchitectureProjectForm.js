@@ -52,7 +52,7 @@ function NewArchitectureProjectForm({onAddProject}) {
           <label htmlFor="image_url">Image URL: </label>
           <input
             type="text"
-            id="image"
+            id="image_url"
             value={formData.image_url}
             onChange={handleChange}
           />
